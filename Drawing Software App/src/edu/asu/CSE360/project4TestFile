@@ -1,0 +1,54 @@
+qBegin
+Diagram
+i interface1 c class1 i interface2 c class2 c class3
+interface1 i class2
+class1 g class3
+qEnd
+qBegin
+Diagram
+c class1 i interface1
+interface1 i class1
+qEnd
+qBegin
+Diagram
+c class1 c class2 c class3 i interface1
+class1 s interface1
+qEnd
+qBegin
+Diagram
+c class1 c class2 c class3
+class1 g class3
+qEnd
+qBegin
+Diagram
+c class1 c class2 i interface1
+interface1 i class1
+interface1 i class2
+qEnd
+qBegin
+Code
+c class1 c class2
+class2 s class1
+qEnd
+qBegin
+Code
+c class1 c class2
+qEnd
+qBegin
+Code
+c class1 c class2 i interface1
+interface1 i class1
+class1 g class2
+qEnd
+qBegin
+Code
+c class1 c class2 c class3
+class1 g class2
+class2 s class3
+qEnd
+qBegin
+Code
+c class1 c class2 c class3
+class1 s class2
+class1 s class3
+qEnd
